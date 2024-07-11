@@ -1,26 +1,32 @@
 # GIGAZET
 Image Processing and Segmentation Approaches
 This repository contains two approaches for image processing and segmentation using Python. The first approach extracts pixel values from an image, and the second approach performs image segmentation using a pre-trained model.
+
+
 Table of Contents
 First Approach: Extracting Pixel Values
-oIntroduction
-oDependencies
-oUsage
+o Introduction
+o Dependencies
+o Usage
+
+
 Second Approach: Image Segmentation
-oIntroduction
-oDependencies
-oUsage
+o Introduction
+o Dependencies
+o Usage
 First Approach: Extracting Pixel Values
 Introduction
 This approach uses the Python Imaging Library (PIL) and NumPy to extract pixel values from an image and store them in a NumPy array. This can be useful for basic image processing tasks and analysis.
 Dependencies
-Python 3.x
-Pillow
-NumPy
+ Python 3.x
+ Pillow
+ NumPy
 You can install the required packages using pip:
 bash
 Copy code
 pip install pillow numpy
+
+
 Usage
 1.Ensure you have the required dependencies installed.
 2.Place your image in a directory and update the image_path variable in the script with the path to your image.
@@ -28,18 +34,22 @@ Usage
 Second Approach: Image Segmentation
 Introduction
 This approach uses PyTorch, torchvision, and the segmentation_models_pytorch library to perform image segmentation using a pre-trained model. Image segmentation is the process of partitioning an image into multiple segments (sets of pixels) to simplify or change the representation of an image into something more meaningful and easier to analyze.
+
+
 Dependencies
-Python 3.x
-PyTorch
-torchvision
-segmentation_models_pytorch
-Pillow
-NumPy
-Matplotlib
+ Python 3.x
+ PyTorch
+ torchvision
+ segmentation_models_pytorch
+ Pillow
+ NumPy
+ Matplotlib
 You can install the required packages using pip:
 bash
 Copy code
 pip install torch torchvision segmentation-models-pytorch pillow numpy matplotlib
+
+
 Usage
 1.Ensure you have the required dependencies installed.
 2.Place your image in a directory and update the image_path variable in the script with the path to your image.
